@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "X9C104P")(type "KiCad")(uri "${KIPRJMOD}/X9C104P/X9C104P.kicad_sym")(options "")(descr ""))
+  (lib (name "X9C104P")(type "KiCad")(uri "${KIPRJMOD}/models/X9C104P/X9C104P.kicad_sym")(options "")(descr ""))
 )
