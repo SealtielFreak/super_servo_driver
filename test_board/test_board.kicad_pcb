@@ -94,7 +94,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "01bfe9b9-d314-4219-8638-b3d1da19ca70")
-		(at 125.555 96.905)
+		(at 172.555 96.905)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
@@ -408,7 +408,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "35bb919d-890e-4f6d-8489-af79738fc6e7")
-		(at 133 94 -90)
+		(at 180 94 -90)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C3"
@@ -660,7 +660,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "3ca47693-8c43-4b23-867b-4bcc085c731a")
-		(at 143.75 100.75)
+		(at 190.75 100.75)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C2"
@@ -912,7 +912,7 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "4cdd5d50-14d7-4c05-a4ef-1f5d2bab0af4")
-		(at 146.25 87.25 180)
+		(at 193.25 87.25 180)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C1"
@@ -1164,7 +1164,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "701d93e5-ffcd-455c-abe4-783faaf031ad")
-		(at 132.42 88.25)
+		(at 179.42 88.25)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J3"
@@ -1418,7 +1418,7 @@
 	(footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 		(layer "F.Cu")
 		(uuid "7254fd21-9e61-4b1a-acc3-8072417b98db")
-		(at 146 91.46 -90)
+		(at 193 91.46 -90)
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
@@ -1672,11 +1672,11 @@
 	(footprint "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "782bb478-09b4-4744-809f-4256ef35b119")
-		(at 131.75 99.4)
+		(at 178.75 99.4)
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3*2mm^2, Capacitor")
 		(tags "C Disc series Radial pin pitch 2.50mm  diameter 3mm width 2mm Capacitor")
 		(property "Reference" "C4"
-			(at 1.2 1.95 360)
+			(at 1.2 1.95 0)
 			(layer "F.SilkS")
 			(uuid "5479fa9a-5424-432b-a55b-d67b22fc0f5e")
 			(effects
@@ -1687,7 +1687,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 1.25 2.25 360)
+			(at 1.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "cdc36f97-54df-4b3c-8d73-a5c4ae3c48f5")
 			(effects
@@ -1879,7 +1879,7 @@
 			(uuid "18e1dada-8466-4bf7-b2f2-68293afc5bb0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "ac26768e-3cb3-4f97-b836-930e9b45fd58")
 			(effects
@@ -1924,7 +1924,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "97557415-9769-4e6b-b72e-c3f0094378d0")
-		(at 137.277401 98.25)
+		(at 184.277401 98.25)
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C5"
@@ -3039,7 +3039,7 @@
 	(footprint "TC118S:SOIC127P600X155-8N"
 		(layer "F.Cu")
 		(uuid "b1c72e06-4751-4d23-bf13-910a4c3d1d34")
-		(at 125.55 91)
+		(at 172.55 91)
 		(descr "sop8")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
@@ -3432,8 +3432,8 @@
 		)
 	)
 	(gr_rect
-		(start 120.5 84)
-		(end 150.5 104)
+		(start 98 69)
+		(end 198 119)
 		(stroke
 			(width 0.05)
 			(type default)
