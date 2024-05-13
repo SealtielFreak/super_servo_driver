@@ -1246,22 +1246,10 @@
 		(uuid "31ba87ff-172b-4145-88d3-a9d5a85e1cf9")
 	)
 	(junction
-		(at 170.18 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7caeaea3-0611-418c-825f-1ef5d2ce01b1")
-	)
-	(junction
 		(at 213.36 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fea385a-1164-4af3-af69-3d6408e82822")
-	)
-	(junction
-		(at 170.18 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0624c3-269c-40d0-8583-165e1b9a873e")
 	)
 	(junction
 		(at 153.67 96.52)
@@ -1282,7 +1270,7 @@
 		(uuid "f26eda1c-064b-4a6f-b603-a69f47554a90")
 	)
 	(no_connect
-		(at 72.39 106.68)
+		(at 68.58 106.68)
 		(uuid "8139d3f7-aac2-4439-87ce-6d77a303a6fe")
 	)
 	(bus_entry
@@ -1426,16 +1414,6 @@
 			(type default)
 		)
 		(uuid "29cfe5db-214a-462f-8d04-a7395ecccf5f")
-	)
-	(wire
-		(pts
-			(xy 185.42 102.87) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cffeee5-fcb8-4670-abe7-74a5e908e36d")
 	)
 	(wire
 		(pts
@@ -1729,16 +1707,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 185.42 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e28e61-2c78-416e-ad93-5485a7b3a83c")
-	)
-	(wire
-		(pts
 			(xy 204.47 54.61) (xy 204.47 59.69)
 		)
 		(stroke
@@ -1799,16 +1767,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde6e3c6-127a-4ddc-963a-7a3caf416b75")
-	)
-	(wire
-		(pts
 			(xy 209.55 49.53) (xy 217.17 49.53)
 		)
 		(stroke
@@ -1819,17 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 185.42 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61fa07b-c764-421d-898c-12a0e111a13e")
-	)
-	(wire
-		(pts
-			(xy 72.39 106.68) (xy 63.5 106.68)
+			(xy 68.58 106.68) (xy 63.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "104pF"
+		(property "Value" "100nF"
 			(at 149.86 107.9499 0)
 			(effects
 				(font
@@ -2078,7 +2026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.7048 110.49 0)
 			(effects
 				(font
@@ -2417,75 +2365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c02744d-ea46-4ca8-914e-4969e58ef308")
-		(property "Reference" "C5"
-			(at 189.23 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "104pF"
-			(at 189.23 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 186.3852 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21eb2a5f-26c0-44df-b628-58662e27796a")
-		)
-		(pin "1"
-			(uuid "032f77fd-7dc7-444b-94be-9126ad43d8cb")
-		)
-		(instances
-			(project "sg_x"
-				(path "/e6ca21f7-2fbf-4ce0-9422-134e489615d1"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 48.26 81.28 0)
 		(unit 1)
@@ -2815,7 +2694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.5048 54.61 0)
 			(effects
 				(font
