@@ -1,4 +1,4 @@
-23135286739188183
+23142149203665835
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -48117,6 +48117,34 @@ conn samtec discrete wire terminal
 0
 22
 21
+Connector_Servo_Driver
+Connector_DC_Motor
+
+
+0
+2
+2
+Connector_Servo_Driver
+Connector_Servo_Driver_ADC
+
+
+0
+3
+3
+Connector_Servo_Driver
+Connector_Servo_Driver_Programable
+
+
+0
+5
+5
+Connector_Servo_Driver
+Connector_Servo_Driver_SMD
+
+
+0
+4
+4
 Connector_Stocko
 Stocko_MKS_1651-6-0-202_1x2_P2.50mm_Vertical
 Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator
