@@ -30,6 +30,9 @@ fp-info-cache
 
 # Proteus
 *.pdsbak
+<<<<<<< HEAD
 
 # Backup files
 *.zip
+=======
+>>>>>>> a1f1fca796f93949b5a27503f0c295f0a04f0f46
